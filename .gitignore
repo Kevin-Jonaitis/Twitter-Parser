@@ -1,1 +1,4 @@
 Twitter Parser/obj/*
+packages/DotNet*
+packages/L*
+packages/TweetSharp*
