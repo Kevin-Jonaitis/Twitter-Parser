@@ -10,7 +10,7 @@ OAuthTokenSecret
 OAuthConsumerKey
 OAuthConsumerSecret
 
-These will be created when a create a twitter app(see 
+These will be created when a create a twitter app. 
 
 Once you have them, simply write these two lines, passing the keys in the order listed above:
             
@@ -18,5 +18,3 @@ parser = new Parser(key1, key2, key3, key4);
 parser.findKeywords(keyword);
 
 Tweets can be fetched from the Queue in the Parser class. They will contain name, location, and text variables.
-
-Feel free to eliminate the while loop at the bottom. That's created so the p
